@@ -1,0 +1,55 @@
+[
+  {
+    "name": "CharacterA",
+    "class": "Warrior",
+    "stats": {
+      "health": 5000,
+      "attack": 300,
+      "defense": 150,
+      "speed": 100,
+      "crit_rate": 0.2,
+      "crit_damage": 1.5,
+      "effect_hit_rate": 0.25,
+      "effect_resistance": 0.3,
+      "dual_attack_rate": 0.05
+    },
+    "advantages": ["CharacterB"],
+    "disadvantages": ["CharacterC"],
+    "skills": [
+      {
+        "name": "Skill1",
+        "description": "This is a detailed description of Skill1.\nIt has multiple lines.",
+        "tags": ["attack", "fire"]
+      },
+      {
+        "name": "Skill2",
+        "description": "This is a detailed description of Skill2.\nIt also has multiple lines.",
+        "tags": ["defense", "earth"]
+      }
+    ]
+  },
+  {
+    "name": "CharacterB",
+    "class": "Mage",
+    "stats": {
+      "health": 4500,
+      "attack": 350,
+      "defense": 100,
+      "speed": 110,
+      "crit_rate": 0.15,
+      "crit_damage": 1.4,
+      "effect_hit_rate": 0.3,
+      "effect_resistance": 0.25,
+      "dual_attack_rate": 0.1
+    },
+    "advantages": ["CharacterC"],
+    "disadvantages": ["CharacterA"],
+    "skills": [
+      {
+        "name": "Skill3",
+        "description": "This is a detailed description of Skill3.\nIt has multiple lines.",
+        "tags": ["speed", "wind"]
+      }
+    ]
+  }
+]
