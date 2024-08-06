@@ -1,27 +1,62 @@
 [
   {
-    "name": "Knight",
+    "name": "深淵のユピネ",
+    "alias": ["Abyssal Yufine", "A.Yufine"],
     "advantages": ["Mage", "Archer"],
     "disadvantages": ["Assassin", "Berserker"]
   },
   {
-    "name": "Mage",
-    "advantages": ["Assassin", "Knight"],
-    "disadvantages": ["Archer", "Berserker"]
+    "name": "ヴィオレタ",
+    "alias": ["Violet"],
+    "advantages": ["ディズィー", "ラン"],
+    "disadvantages": ["ミリム", "エルフェルト"]
   },
   {
-    "name": "Archer",
-    "advantages": ["Mage", "Assassin"],
-    "disadvantages": ["Knight", "Berserker"]
+    "name": "雪国のソリタリア",
+    "alias": ["solitalia", "ml.eda"],
+    "advantages": ["ヴィオレタ", "水辺のヴェローナ"],
+    "disadvantages": ["深淵のユピネ", "調整者カーウェリック"]
   },
   {
-    "name": "Assassin",
+    "name": "水辺のヴェローナ",
+    "alias": ["Seaside Belona", "SSB"],
     "advantages": ["Berserker", "Mage"],
-    "disadvantages": ["Knight", "Archer"]
+    "disadvantages": ["光の天使アンジェリカ", "Archer"]
   },
   {
-    "name": "Berserker",
-    "advantages": ["Knight", "Archer"],
-    "disadvantages": ["Mage", "Assassin"]
+    "name": "残影のヴィオレタ",
+    "alias": ["Remnant Violet", "ml.Violet"],
+    "advantages": ["司令官パヴェル", "慈愛のローマン"],
+    "disadvantages": ["雪国のソリタリア", "黒騎士ピィリス"]
+  },
+  {
+    "name": "暗幕殺法カルトゥハ",
+    "alias": ["Assassin Caltuha", "ml.Caltuha"],
+    "advantages": ["", ""],
+    "disadvantages": ["黒騎士ピィリス", "万能解決士ワンダ"]
+  },
+  {
+    "name": "ヴェリアン",
+    "alias": ["Verian"],
+    "advantages": ["", ""],
+    "disadvantages": ["黒騎士ピィリス", "ロエンナ"]
+  },
+  {
+    "name": "ロエンナ",
+    "alias": ["Roana"],
+    "advantages": ["ヴェリアン", "水辺のヴェローナ"],
+    "disadvantages": ["新月のルナ", "魔神の影"]
+  },
+  {
+    "name": "鎮魂のロエンナ",
+    "alias": ["Roana"],
+    "advantages": ["", ""],
+    "disadvantages": ["新月のルナ", "魔神の影"]
+  },
+  {
+    "name": "支配者リリアス",
+    "alias": ["Ruler Lilias"],
+    "advantages": ["", ""],
+    "disadvantages": ["ポリティス", "セリン"]
   }
 ]
